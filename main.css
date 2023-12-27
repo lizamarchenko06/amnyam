@@ -1,0 +1,585 @@
+/* body {
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1614432541_61-p-krasivii-temnii-fon-dlya-gachi-90.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+} */
+.box1{
+    width: 100%;
+    height: 400px;
+    border-top:25px solid #1f4717;
+    border-bottom:25px solid #1f4717;
+    background-color: rgb(90, 235, 77);
+    max-width: 100%;
+
+}
+
+.frtn{
+    font-size:18px;
+    /* величинa пространства между строками */
+    line-height:22.28px;
+}
+.Name{
+
+    height: 100px;
+    font-size: 100px;
+    /* шрифт */
+    font-family: 'Permanent Marker';
+    /* выравнивание текста по центру */
+    text-align: center;
+    margin:0px auto;
+    margin-bottom: 40px;
+}
+.story{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Permanent Marker';
+}
+
+.products{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(87, 145, 12);
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.products{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(87, 145, 12);
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.fact{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(160, 155, 207);
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.product{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(87, 145, 12);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.DNO{
+    background-color: lightsalmon;
+    width: 100%;
+}
+
+.menuItem{
+    margin: 0%;
+    width: 150px;
+    height: 300px;
+    margin-left: 1600px;
+    margin-top: -200px;
+    font-family: 'Permanent Marker';
+}
+
+.aboutus{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(43, 63, 35);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-top:10px solid #137010;
+    padding: 10px;
+
+}
+
+.Temaaa{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-colored-light-background-pink-orange-and-green-blurred-waves-backdrop-for-business-and-posters-websites-and-covers-vector-illustration-for-graphic-design_589396-586.jpg');
+    /* полностью покрывает задний элемент */
+        background-size: cover;
+        background-attachment: fixed;
+}
+.aboutuslobb{
+    background-color: rgb(2, 80, 2);
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+}
+.aboutas{
+    font-family: 'Courgette', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: lightslategrey;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+}
+
+.grid-parent3{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    /* определяет колонки сетки с помощью списка значений разделённого пробелами. */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* определяет названия линий и путь размера функции grid rows */
+    grid-template-rows: 200px 200px;
+    /*Двигают саму сетку*/
+    justify-content: space-around;
+    /*Двигают элементы внутри сетки*/
+    align-items: center;
+    /* способ выравнивания по умолчанию каждого блока вдоль соответствующей оси. */
+    justify-items: center;
+}
+
+.blockStaff{
+    height: 100px;
+    display: flex;
+}
+
+.blockchild{
+    width: 100%;
+    border:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blockimg{
+    width: 100%;
+    border:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sweet{
+    width: 600px;
+    height: 650px
+}
+
+.eye{
+    width: 300px;
+    height: 100%;
+}
+
+
+*{
+    /* Высота будет состоять из: высота контента + вертикальные padding'и + ширина вертикальных border. */
+    box-sizing:border-box;
+    margin:0px;
+}
+.header{
+    width: 100%;
+    /* устанавливает нижний отступ элемента. */
+    padding-bottom: 104px;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    /* устанавливает величину пространства между строками, например в тексте. */
+    line-height: 42.09px;
+    color: darkslategrey;
+}
+.wrapper{
+    width:100%;
+    min-height:75vh;
+}
+.container{
+    max-width:945px;
+    margin:0px auto;
+}
+
+
+.info{
+    color: #070707;
+    font-weight: bold;
+
+}
+.navigation{
+    width: 100%;
+    height:88px;
+    display:flex;
+    /* определяет выравнивание по главной оси. */
+    justify-content:space-around; 
+    /* Элементы flexbox / grid выровнены в центре поперечной оси */
+    align-items:center;
+    /*  одновременно установить толщину, стиль и цвет границы внизу элемента */
+    border-bottom:1px solid #0b3b0b;
+} 
+
+.besty{
+    width: 100%;
+    height:100px;
+    display:flex;
+    /* определяет выравнивание по главной оси. */
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* Элементы flexbox / grid выровнены в центре поперечной оси */
+    align-items:center;
+}
+
+.img1{
+    display: block;
+    height: 450px;
+    width: 450px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;  
+}
+
+
+.navigation a{
+    font-size:18px;
+    line-height:22.28px;
+    color:#828282;
+    text-decoration:none;
+}
+
+.menu-dropdawn{
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-dropdawn:hover .sub-menu-content{
+    height: 90px;
+} 
+
+.dropdawn-text{
+    font-size:18px;
+    line-height:22.28px;
+    color:#828282;
+    text-decoration:none;
+}
+.sub-menu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0); /* прозрачная штука */
+    font-size:18px;
+    line-height:22.28px;
+    color:#828282;
+    text-decoration:none;
+    width: 100%;
+}
+
+.sub-menu-content{
+    background-color: white;
+    margin-top: 100px;
+    height: 0px;
+    transition: height 0.5s ease-in-out; /* Анимация */
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.preview{
+    width:100%;
+    display:flex;
+    /* для распределения элементов внутри контейнера с равномерным расстоянием между ними, при этом первый и последний элементы выравниваются по краям контейнера. */
+    justify-content:space-between; 
+    /* элементы идут в конце оси */
+    align-items:flex-end;
+    margin-top:40px;
+    margin-bottom:31px;
+    color:#070707;
+}
+
+.preview h1{
+    font-size:47.34px;
+    line-height:58.61px;
+}
+.preview-text{
+    font-size:18px;
+    line-height:21.83px;
+}
+
+.previewImg{
+    width:500px;
+    margin-bottom:104px;
+}
+.previewImg img{
+    width:100%;
+    height: 100%;
+}
+
+.imgprod{
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+.AboutME{
+    width: 100%;
+    height: 506px;
+
+    background-color: cornsilk;
+    display: flex;
+    /* Элементы внутри флекс-контейнера располагаются по центру поперечной оси. */
+    align-items: center;
+    /* определяет, как браузер распределяет пространство между и вокруг элементов контента вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера. */
+    justify-content: center;
+    /* расставляет элементы в ряд или в колонку */
+    flex-direction: column;
+    /* Выравнивание текста по центру */
+    text-align: center;
+}
+.AboutME h2{
+    margin-bottom: 17.069px;
+}
+
+.AboutME p{
+    font-size: 18px;
+    line-height: 21.03px;
+    color: darkslategrey;
+    margin-bottom: 20px;
+}
+
+
+.SkillsArea{
+    width: 100%;
+    padding-top: 91px;
+    padding-bottom: 110px;
+    
+    display: flex;
+    /* расставляет элементы в ряд или в колонку */
+    flex-direction: column;
+    /* Элементы внутри флекс-контейнера располагаются по центру поперечной оси. */
+    align-items: center;
+}
+
+.SkillsArea h2{
+    margin-bottom: 51px;
+}
+
+.SkillsArea p{
+    font-size: 18px;
+    line-height: 21.83px;
+    color: #070707;
+    margin-bottom: 83px;
+}
+
+.SkillCard{
+    width: 166.46px;
+    display: flex;
+    /* расставляет элементы в ряд или в колонку */
+    flex-direction: column;
+    /* Элементы внутри флекс-контейнера располагаются по центру поперечной оси. */
+    align-items: center;
+    /* Выравнивание текста по центру */
+    text-align: center;
+}
+
+.SkillCardImg{
+    margin-bottom: 21px;
+}
+
+.SkillsCardRow{
+    width: 100%;
+    display: flex;
+    /* распределяет пространство между и вокруг элементов контента вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера. */
+    justify-content: space-between;
+}
+
+.SkillCard p{
+    color: goldenrod;
+    font-family: 'Frijole';
+    font-size: 20px;
+    line-height: 17.33px;
+}
+.StarRow{
+    width: 100%;
+    display: flex;
+    /* распределяет пространство между и вокруг элементов контента вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера. */
+    justify-content: space-between;
+}
+
+.StarRow svg{
+    width: 26px;
+    height: 26px;
+}
+
+.EmptyStar *{
+    /* устанавливает цвет внутри объекта */
+    fill: #E5E5E5;
+}
+
+.SkillsCardRow{
+    /* делает в строчку 4 фотошопа */
+    width: 100%;
+    /* включает режим макета flexbox, позволяющий управлять выравниванием, интервалом и порядком элементов внутри контейнера */
+    display: flex;
+    /* распределяет пространство между и вокруг элементов контента вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера. */
+    justify-content: space-between;
+}
+
+    .Contacts{
+        /* включает режим макета flexbox, позволяющий управлять выравниванием, интервалом и порядком элементов внутри контейнера */
+        display:flex;
+        /* расставляет элементы в ряд или в колонку. */
+        flex-direction:column;
+        /* совместит центры родителя и каждого из элементов */
+        align-items:center;
+        padding-top:114.44px;
+        padding-bottom:123.19px;
+    }
+    
+    .Contacts h2{
+        margin-bottom:40px;
+    }
+    
+    .welcomeText{
+        font-size:18px;
+        line-height:21.83px;
+        text-align:center;
+        margin-bottom:30px;
+    }
+    .classbutton{
+        color: #E5E5E5;
+    }
+    button{
+        width:180px;
+        height:42px;
+        background-color: black;
+        border-radius:40px;
+        color:white;
+        margin-bottom:85px;
+        font-size:18px;
+        line-height:22.28px;
+        font-weight:bold;
+        border:none;
+        /* обводка не отображается, даже если задано значение для outline-width */
+        outline:none;
+    }
+    
+    .iconsimg{
+        width: 40px;
+        height: 41px;
+    }
+    .socialIconsRow{
+        margin-bottom:30px;
+    }
+    
+    .socialIconsRow svg{
+        margin-right:50px;
+    }
+
+    .socialIconsRow a{
+        margin-right:50px;
+    }
+    
+    .socialIconsRow svg:last-child{
+        margin-right:0px;
+    }
+    
+    .socialIconsRow :last-child{
+        margin-right:0px;
+    }
+    .socialIconText{
+        font-size:14px;
+        line-height:16.98px;
+        /* Выравнивание текста по центру */
+        text-align:center;
+        color: black;
+        
+    }
+    
+    .img_vipad{
+        max-width: 350px;
+        max-height: 400px;
+    }
+    /* Dropdown Button */
+    .dropbtn {
+    
+        color: white;
+        /* padding: 16px; */
+        font-size: 16px;
+        border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position:absolute;
+        left:calc(0px - 50%);
+        background-color: #f1f1f1;
+        min-width: auto;
+        /* позволяет добавить тень вокруг элемента на веб-странице */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        /* используется для стабилизации порядка элементов, которые перекрываются */
+        z-index: 1;
+        
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+
+    /* набор правил (запросов), которые позволяют адаптировать внешний вид веб-страницы под технические параметры устройства пользователя */
+    @media (max-width:1024px){
+        .blockimg{ display: none;}
+    }
+
+    @media (max-width:768px){
+        .SkillsCardRow{
+            /* эта штука делает квадратиком 4 фотошопа */
+            grid-row-gap: 60px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-items: center;
+        }
+            
+    }
+
+    @media (max-width:425px){
+        .story{
+            display: none;
+        }
+        .aboutas{
+            font-size: 10px;
+            
+        }
+        .navigation a {
+            font-size: 10px;
+        }
+        .SkillsArea {
+            padding-bottom: 0px;
+        }
+    }
+
+    @media (max-width:375px){
+        .Name{
+            font-size: 95px;
+        }
+    }
+
+    @media (max-width:320px){
+        .Name{
+            font-size: 75px;
+        }
+    }
